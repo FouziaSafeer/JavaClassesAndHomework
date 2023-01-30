@@ -1,0 +1,72 @@
+Methods in java:
+is just a collection of java statements and block of code {cide in this bracets, loops print ln}
+Why we should learn method:
+    1)it allows us to simply large code as we divide the logic into smallar parts by creating methods from them
+    for them build those method one by one later on combine them to build the complete application.
+    2.)Methods allows us to reuse code.
+    3.)Methods allow us to be flexible(maintainable)if one part is chance only update that.
+ how can we creat Methods?
+        There are two types 1>built in and 2>user define.
+ Built-in methods?
+    The methods which are design by java developers e.g println(),nextInt() methods in scanner class.
+    lenghth method in string class they are all built in methods.
+User define methods:
+    the methods that Write.
+    Methods which returns something when called and other are methods which do not return anything when called.
+
+
+ int add(int a,int n)   {
+ return a+b;
+ }
+ int=>>> return type of method.
+ add=>>name of method
+ (int a, int b)=>> paramether of the method or input of method
+{   body of the method
+}
+Rules:
+return type and values that we are returning  from a method should match
+we only assign methods
+
+
+
+local variable:
+if a variable is created inside a block of code like methos,loop,if condition etc....
+they are called local variable.
+upside:
+    local variables occupy the memory for the shortest period of time ,
+    you should always try to write withlocal variable
+Downside:
+they cannot be accessed outside the block in which they are created. they have very limited scope
+
+instance variable:
+All the variables which are created in side a class, outside of methods are called instance variable
+upside:
+    we can use them in all the instance methods of that class, thier scope is larger then local variable
+downside:
+they stayed longer in the memory as compare to local variables.
+
+
+static varibale:
+outside method and with static ketword at start is called static variable.
+static variable only occupy one memory location from RAM even though we create
+1000 objectsof that class.
+they can be used in any block of code inside the class they can be accessed in any
+methods of the class, they can also be acess with help of that obkject,
+most wider scope.
+Downside:
+they are loaded into the memory when a class is loaded even though you don't use them.
+
+
+Summary:
+In Java, variables can be classified into three types: local, instance, and static.
+1.    Local Variables: Local variables are defined inside a method or block of code.
+They are only accessible within the method or block of code where they are declared and are not
+visible outside of it. They are also known as automatic or stack variables. They do not have a default
+ value, so you must initialize them before using them.
+2.    Instance Variables: Instance variables are defined in a class but outside of any method.
+ They are associated with an instance of the class and have a default value. They can be accessed
+ by any method in the class and are also known as non-static fields.
+3.    Static Variables: Static variables are also defined in a class but outside of any
+method and are shared among all instances of the class. They are associated with the class itself
+ rather than any specific instance. They can be accessed by any method in the class and are also known
+  as class variables. They have a default value and can be accessed directly by calling className.variableName.
