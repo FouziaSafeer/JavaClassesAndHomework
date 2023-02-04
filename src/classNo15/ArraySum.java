@@ -1,5 +1,7 @@
 package classNo15;
 
+import classNo17.Task2;
+
 public class ArraySum {
 
 
