@@ -1,0 +1,33 @@
+overriding:process with the same method exist in super and subclass
+why---to provide flexibility
+how to implement
+            1.inheritance
+            2.same signature(name and parameter)
+            3.same return type
+4access modifier...>overriding methods must have same level of visibility or higher
+
+
+final: keyword that idenetifies something is complete and no modification can be done
+
+final can be used with:
+            variable-make variable comstant
+            methods cannot override it
+            class cannot not be inherited
+
+
+abstraction:
+        Process of hiding implementation details and showing only functionality.
+   why:
+      1. reduce complexcity
+      2.improve maintainability
+      3.security
+   how to implement:by using
+                            1.by using Abstract classses (0---100% abstraction )(depends on abstarct methods# )
+                            2. by using interfaces---(b4 java 8 we can  onlt achive 100% abstraction)
+
+     Abstract class-
+       abstract :means something is not complete
+
+
+
+
